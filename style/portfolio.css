@@ -3,53 +3,50 @@
     padding: 0;
     list-style: none;
 }
-
+.clearfix {
+    clear: both;
+}
 #header {
     height: 50px;
     line-height: 50px;
-    background-color:blue;
+    background-color:rgb(98, 105, 173);
     font-size: 16px;
 }
 
-#header .a {
+#header .h-left {
     float: left;
     padding-left: 20px;
 }
 
-#header .a img {
-    width: 35px;
-    height: 35px;
+#header .h-left img {
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
     margin-top: -7px;
-    padding: 0 35px;
 }
 
-#header .a a {
-    color: red;
+#header .h-left a {
+    color: #333;
     text-decoration: none;
 }
 
-#header .b {
+#header .h-right {
     float: right;
-    padding-right: 32px;
+    padding-right: 20px;
     
 }
-#header .b ul li {
+#header .h-right ul li {
     display: inline-block;
 }
 
-#header .b ul li:hover {
-    background-color:red;   
+#header .h-right ul li:hover {
+    background-color:#EE82EE;   
 }
 
 
-#header .b ul li a {
-    color:whitesmoke;
+#header .h-right ul li a {
+    color: aliceblue;
     text-decoration: none;
-
-}
-.c {
-    clear: both;
 }
 
 #container {
@@ -60,7 +57,7 @@
 }
 
 #container h2 {
-    font-size: 30px;
+    font-size: 25px;
     height: 50px;
     line-height: 50px;
 }
@@ -70,65 +67,65 @@ hr {
     border: 2px solid #333;
 }
 
-#container .container-1 {
+#container .container-main {
    display: flex;
    padding: 0 50px;
 }
 
-#container .container-2 {
-    background-color:whitesmoke;
-    border:1px solid brown;
+#container .container-eontent {
+    background-color: rgba(30, 91, 182, 0.1);
+    border:1px solid lightskyblue;
     margin-right: 20px;
     width: 25%;
 }
 
-#container .container-2:hover {
+#container .container-eontent:hover {
     border: 1px solid rlightskyblue;
-    background-color:rosybrown;
+    background-color: rgba(30, 91, 182,0.3);
 
 }
 
-#container .container-2:last-child {
+#container .container-eontent:last-child {
     margin-right: 0;
 }
 
-#container .container-2 img {
+#container .container-eontent img {
     height: 350px;
     width: 300px;
     padding-top: 10px;
 }
 
 
-#d {
+#footer {
     margin-top: 10px;
-    background-color:yellowgreen;
+    background-color:rgb(98, 105, 173);
     font-size: 16px;
     
 }
 
-#d .top {
+#footer .f-top {
     height: 150px;
     line-height: 150px;
     margin: 0 50px;
     border-bottom: 1px solid #333;
 }
-#d .top .left {
-    margin-left: 64px;
+#footer .f-top .left {
+    margin-left: 50px;
     float: left;
     width: 60%;
 }
 
-#d .top .right {
+#footer .f-top .right {
     float: left;
 }
 
-#d .top .right img {
-    width: 128px;
-    height: 128px;
+#footer .f-top .right img {
+    width: 80px;
+    height: 80px;
     vertical-align: middle;
 }
 
-#d .f-d {
-    height: 60px;
-    line-height: 60px;
+#footer .f-footer {
+    height: 40px;
+    line-height: 40px;
 }
